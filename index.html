@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="changeButton" id="changeBtn1">
+            <div class="moves">
+                Moves: <span id="counter1">0</span>
+            </div>
+            <div class="timer" id="timer1">
+                600
+            </div>
+            <div class="timerSettings">
+                <button type="button" id="timerSett1"><i class="fa-solid fa-sliders"></i></button>
+            </div>
+        </div>
+        <div class="menu">
+            <button type="button" id="reset"><i class="fa-solid fa-rotate-right"></i></button>
+            <button type="button" id="pause"><i class="fa-solid fa-pause"></i></button>
+            <button type="button" id="settings"><i class="fa-solid fa-gear"></i></button>
+        </div>
+        <div class="changeButton" id="changeBtn2">
+            <div class="moves">
+                Moves: <span id="counter2">0</span>
+            </div>
+            <div class="timer" id="timer2">
+                600
+            </div>
+            <div class="timerSettings">
+                <button type="button" id="timerSett2"><i class="fa-solid fa-sliders"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
